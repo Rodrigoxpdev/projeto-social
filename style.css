@@ -29,19 +29,28 @@ main {
     height: 100vh;      
 }
 
-section#tl{
+section#telefone{
+
+    position: absolute;
     height: 627px;
     width: 311px;
     top: 50%;
     left: 50%;
-    position: absolute;
     transform: translate(-50%, -50%);
+
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
 }
 
 
-
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left:22px;
+    width: 268px;
+    height: 471px;
+    
+}
 
 
 
