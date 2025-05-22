@@ -56,9 +56,9 @@ iframe#tela{
 @media (max-width: 350px) {
     section#telefone {
         width: 90vw;
-        height: calc(40vh * 2.016); /* Mantém a proporção do iPhone */
+        height: calc(95vw * 2.016); /* Mantém a proporção do iPhone */
         min-width: 100px;
-        min-height: 203px;
+        min-height: 303px;
     }
 
     iframe#tela {
@@ -106,7 +106,7 @@ section#rd img:hover{
         text-align: center;
         display: flex;
         margin-left: 32%;
-        
+        position: absolute;
     }
     
 }
