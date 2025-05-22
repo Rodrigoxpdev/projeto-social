@@ -58,7 +58,7 @@ iframe#tela{
         width: 90vw;
         height: calc(95vw * 2.016); /* Mantém a proporção do iPhone */
         min-width: 100px;
-        min-height: 303px;
+        min-height: 203px;
     }
 
     iframe#tela {
