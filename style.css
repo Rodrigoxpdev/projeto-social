@@ -52,8 +52,24 @@ iframe#tela{
     
 }
 
+section#rd img{
+    /* a margin separa quando usa proporçao maior tipo 10px pra frente
+    se colocar 0px ou -1px ele cola na borda */
+    margin: 10px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.427);
+    box-sizing: border-box;
+}
 
+section#rd{
+    text-align: right;
+}
 
-
-
+section#rd img:hover{
+    border: 1px solid rgba(255, 255, 255, 0.62);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.464);
+    transition: .2s ;
+}
 
