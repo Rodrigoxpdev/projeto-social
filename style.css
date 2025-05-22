@@ -29,6 +29,7 @@ main {
     height: 100vh;      
 }
 
+/* ---------------------------------------------------- */
 section#telefone{
 
     position: absolute;
@@ -62,13 +63,12 @@ iframe#tela{
 
     iframe#tela {
         width: 76vw;
-        height: calc(82vw * 1.764); /* Mantém a proporção interna */
         top: 23vw;
         /* left: 6vw; */
     }
 }
 
-
+/* ---------------------------------------------------- */
 section#rd img{
     /* a margin separa quando usa proporçao maior tipo 10px pra frente
     se colocar 0px ou -1px ele cola na borda */
@@ -90,6 +90,8 @@ section#rd img:hover{
     transition: .2s ;
 }
 
+
+/* botoes */
 @media (max-width: 350px) {
     section#rd img {
         width: 36px;
@@ -103,8 +105,30 @@ section#rd img:hover{
     section#rd {
         text-align: center;
         display: flex;
-        margin-left: 30%;
+        margin-left: 32%;
         
     }
     
 }
+/* ---------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
