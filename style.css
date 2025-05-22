@@ -92,7 +92,7 @@ section#rd img:hover{
 
 
 /* botoes */
-@media (max-width: 350px) {
+@media (max-width: 450px) {
     section#rd img {
         width: 36px;
         margin: 5px;
