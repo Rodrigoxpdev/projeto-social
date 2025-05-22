@@ -94,6 +94,17 @@ section#rd img:hover{
     section#rd img {
         width: 36px;
         margin: 5px;
-        left: 20px;
+        
     }
+    
+}
+
+@media (max-width: 350px) {
+    section#rd {
+        text-align: center;
+        display: flex;
+        margin-left: 30%;
+        
+    }
+    
 }
